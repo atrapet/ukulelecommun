@@ -6,16 +6,24 @@
 }
 
 header {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(img/hero.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(img/hero.jpg) no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: red;
+  margin-bottom: 40px;
+}
+
+header img {
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 450px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
 }
 
 nav {
-  margin: 40px 0px;
   font-size: 25px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -24,8 +32,11 @@ nav {
 
 nav ul {
   display: flex;
-  flex-direction: row;
   gap: 20px;
+  padding: 20px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 nav a {
