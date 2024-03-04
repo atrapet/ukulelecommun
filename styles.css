@@ -38,8 +38,19 @@ li {
 }
 
 .content {
-  max-width: 600px;
+  max-width: 640px;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 200px;
+}
+
+.content div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  line-height: 1.5;
 }
