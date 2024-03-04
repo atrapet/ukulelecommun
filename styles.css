@@ -14,18 +14,18 @@ header {
   background-color: red;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
 nav {
   margin: 40px 0px;
   font-size: 25px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 nav a {
